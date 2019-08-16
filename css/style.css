@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "chomsky";
+  src: url("../fonts/chomsky/Chomsky.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "goudy";
+  src: url("../fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: georgia;
+  font-size: 1.3em;
+  line-height: 1.2;
+  color: hsla(106, 0%, 20%, 1.00);
+  width: 100%;
+}
+.main-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 2em;
+  background-color: white;
+  border-bottom: 1px solid hsla(116, 0%, 89%, 1.00);
+}
+
+.main-nav ul {
+  flex: none;
+  width: 12em;
+}
+
+.icon {
+  width: 1em;
+}
+
+.main-nav li {
+  display: inline-block;
+  flex: none;
+  margin: .5em .7em;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.7em;
+}
+
+.main-nav li a {
+  color: hsla(106, 0%, 20%, 1.00);
+  font-weight: 900;
+}
+
+header h1 {
+  font-family: "chomsky";
+  font-size: 1.2em;
+  margin: .2em auto;
+
+}
+.log-in {
+  background: hsla(206, 28%, 52%, 1.00);
+  margin-left: 12em;
+  margin-top: .5em;
+  margin-right: 1em;
+  border: solid 1px hsla(206, 51%, 38%, 1.00);
+  color: white;
+  width: 6em;
+  height: 2.7em;
+  border-radius: 3px;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  margin: 0 auto;
+}
