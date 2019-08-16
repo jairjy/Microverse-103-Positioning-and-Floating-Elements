@@ -1,3 +1,14 @@
+/* Reset referenc https://meyerweb.com/eric/tools/css/reset/ */
+/* *, *::after, *::before {
+  box-sizing: border-box;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: arial, sans-serif;
+} */
 .container {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -9,6 +20,42 @@
   grid-column: 1/8;
   grid-row: 1;
 }
+
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu.section.one{
+  grid-column: 1;
+}
+
+.menu.section.two{
+  grid-column: 2;
+}
+.menu.section.three{
+  grid-column: 3;
+}
+
+.menu.section.four{
+  grid-column: 4;
+}
+.menu.menu.section.five{
+  grid-column: 5;
+}
+
+/* .logo {
+  width: 185px;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  line-height: 50px;
+} */
+
+/* .logo img {
+  display: inline;
+  vertical-align: middle;
+} */
 
 .layout * { background: blue; }
 
