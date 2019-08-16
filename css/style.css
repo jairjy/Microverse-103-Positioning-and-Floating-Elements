@@ -31,16 +31,13 @@ a:hover {
 
 body {
   font-family: arial, sans-serif;
-  padding-left: 35px;
-}
-
-.wrapper {
-  box-shadow: -2px 0 5px 0 #efefef; 
+  /* padding-left: 35px; */
+  font-size: 16px;
 }
 /*  header */
 
 header {
-  /*margin-left: -55px;*/
+  margin-left: -55px;
   overflow-x: visible;
   height: 50px;
   top: 0;
@@ -93,21 +90,6 @@ header {
 .home-link a{
   font-size: 23px;
 }
-
-.sections-trigger {
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-shadow: 0 2px 4px 1px #eee;
-  background: #fff;
-}
-
-.sections-trigger a {
-  background: url("img/menu-icon.png") no-repeat;
-  background-size: 14px 10px;
-  background-position: 0 4px;
-}
-
 .right-links {
   position: absolute; 
   right: 2rem;
@@ -135,4 +117,14 @@ header {
   padding: 9px 10px;
   font-size: 0.7em;
   margin-left: 1rem;
+}
+
+ .principal {
+  background-color: aqua;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.principal h1{
+  padding: 
 }
