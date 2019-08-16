@@ -1,71 +1,139 @@
-@font-face {
-  font-family: "chomsky";
-  src: url("../fonts/chomsky/Chomsky.otf") format("opentype");
+/* Reset referenc https://meyerweb.com/eric/tools/css/reset/ */
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "goudy";
-  src: url("../fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf") format("truetype");
+.clearfix:after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 body {
-  font-family: georgia;
-  font-size: 1.3em;
-  line-height: 1.2;
-  color: hsla(106, 0%, 20%, 1.00);
-  width: 100%;
+  font-family: arial, sans-serif;
+  padding-left: 35px;
 }
-.main-nav {
-  display: flex;
-  position: fixed;
+
+.wrapper {
+  box-shadow: -2px 0 5px 0 #efefef; 
+}
+/*  header */
+
+header {
+  /*margin-left: -55px;*/
+  overflow-x: visible;
+  height: 50px;
   top: 0;
+  right: 0;
   width: 100%;
-  height: 2em;
-  background-color: white;
-  border-bottom: 1px solid hsla(116, 0%, 89%, 1.00);
+  position: fixed;
+  margin-bottom: 2rem;
+  background: #fff;
+  box-shadow: 2px 0 5px 0 #ccc;
+  z-index: 101;
 }
 
-.main-nav ul {
-  flex: none;
-  width: 12em;
-}
-
-.icon {
-  width: 1em;
+.main-nav {
+  height: 50px;
+  line-height: 50px;
 }
 
 .main-nav li {
   display: inline-block;
-  flex: none;
-  margin: .5em .7em;
-  font-family: helvetica, arial, sans-serif;
+  line-height: 1;
+}
+
+.main-nav a {
+  vertical-align: middle;
   font-size: 0.7em;
+  font-weight: bold;
 }
 
-.main-nav li a {
-  color: hsla(106, 0%, 20%, 1.00);
-  font-weight: 900;
+.left-links {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
-header h1 {
-  font-family: "chomsky";
-  font-size: 1.2em;
-  margin: .2em auto;
-
+.left-links li {
+  margin-right: 10px;
+  margin-left: 1rem;
 }
-.log-in {
-  background: hsla(206, 28%, 52%, 1.00);
-  margin-left: 12em;
-  margin-top: .5em;
-  margin-right: 1em;
-  border: solid 1px hsla(206, 51%, 38%, 1.00);
-  color: white;
-  width: 6em;
-  height: 2.7em;
+
+.left-links a {
+  padding: 3px 0 3px 20px;
+  background-position: left center;
+}
+
+.home-link {
+  background: url("img/logo.png") no-repeat;
+  background-size: 14px 16px;
+}
+
+.search-link {
+  background: url("img/search-icon.png") no-repeat;
+  background-size: 14px 14px;
+}
+
+.sections-trigger {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
   border-radius: 3px;
-  font-weight: 700;
+  box-shadow: 0 2px 4px 1px #eee;
+  background: #fff;
 }
-main {
-  display: flex;
+
+.sections-trigger a {
+  background: url("img/menu-icon.png") no-repeat;
+  background-size: 14px 10px;
+  background-position: 0 4px;
+}
+
+.right-links {
+  position: absolute; 
+  right: 2rem;
+  top: 0;
+}
+
+.logo {
+  width: 185px;
+  height: 100%;
   margin: 0 auto;
+  display: block;
+  line-height: 50px;
+}
+
+.logo img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.btn {
+  background: #6288A5;
+  border-radius: 3px;
+  color: #fff;
+  height: 30px;
+  padding: 9px 10px;
+  font-size: 0.7em;
+  margin-left: 1rem;
 }
