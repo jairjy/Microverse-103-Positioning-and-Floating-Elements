@@ -90,9 +90,8 @@ header {
   background-size: 14px 16px;
 }
 
-.search-link {
-  background: url("img/search-icon.png") no-repeat;
-  background-size: 14px 14px;
+.home-link a{
+  font-size: 23px;
 }
 
 .sections-trigger {
