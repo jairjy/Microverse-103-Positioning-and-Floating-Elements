@@ -252,6 +252,15 @@
   grid-row:9;
 }
 
+.layout.six div{
+  grid-column: 4;
+  grid-row: 7;
+  /* padding-top: 12px; */
+  padding-bottom: 20px;
+  position: absolute;
+  left: 90px;
+}
+
 .layout.seven{
   grid-column: 1/8;
   grid-row: 10;
