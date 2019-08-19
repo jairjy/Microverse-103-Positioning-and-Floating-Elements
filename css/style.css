@@ -11,6 +11,7 @@
   grid-row: 1;
 }
 /* #region Header */
+
 .menu {
   display: grid;
   grid-template-columns: 40px 40px 200px 1fr 280px;
@@ -31,7 +32,6 @@
   margin: 10px 0 0 0;
   grid-column: 1;
 }
-
 .section.one img {
   width: 15px;
 }
