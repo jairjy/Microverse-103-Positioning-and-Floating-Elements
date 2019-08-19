@@ -11,7 +11,7 @@ body {
 } */
 .container {
   display: grid;
-  grid-template-columns:  1fr 1fr 150px 600px 150px 1fr 1fr ;
+  grid-template-columns:  1fr 1fr 230px 700px 230px 1fr 1fr ;
   grid-template-rows:  repeat(10, minmax(40px,auto));
   grid-gap: 10px;
 }
@@ -120,6 +120,17 @@ body {
   grid-row: 2;
 }
 
+.layout.principal h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.1rem;
+  line-height: 3rem;
+  max-width: 383.77px;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
 .layout.photo{
   grid-column: 3/6;
   grid-row: 3;
@@ -128,6 +139,14 @@ body {
 .layout.one{
   grid-column: 4;
   grid-row: 4;
+}
+.description{
+  font-size: 0.93rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  color: #666;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  right: 50px;
 }
 
 .layout.two{
