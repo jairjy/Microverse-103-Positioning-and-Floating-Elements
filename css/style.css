@@ -489,3 +489,16 @@
 }
 
 /* #endregion */
+
+.salveme{
+  align:left;
+}
+
+.description-figcaption{
+  font-size: 0.93rem;
+line-height: 1.25rem;
+margin-right: 7px;
+color: #666;
+font-family: Georgia, 'Times New Roman', Times, serif;
+right: 50px;
+}
