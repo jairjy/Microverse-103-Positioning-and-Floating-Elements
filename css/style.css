@@ -6,6 +6,13 @@
   grid-gap: 10px;
 }
 
+.layout.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+}
+
 .layout.header {
   grid-column: 1/8;
   grid-row: 1;
