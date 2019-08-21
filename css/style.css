@@ -32,6 +32,10 @@
   width: 300px;
 }
 
+.column-title img {
+  height: 30px;
+}
+
 .section.one img {
   width: 15px;
 }
@@ -40,6 +44,14 @@
   float: left;
   font-size: 15px;
   padding-right: 30px;
+}
+
+.column-footer a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  color: gray;
+  padding: 0 5px 0 5px;
+  font-size: 0.7rem;
 }
 
 .section.two a {
@@ -89,7 +101,6 @@
   top: -38px;
   float: right;
   width: 400px;
-  /* background-color: red; */
   text-align: right;
   padding-right: 10px;
 }
@@ -132,7 +143,6 @@
   width: 945px;
 }
 
-
 .description {
   font-size: 0.93rem;
   line-height: 1.25rem;
@@ -165,7 +175,6 @@
   margin: 0 auto;
   width: 600px;
 }
-
 
 .layout.one div:first-child {
   font-weight: bold;
@@ -387,21 +396,9 @@
   height: 30px;
 }
 
-.column-title img {
-  height: 30px;
-}
-
 .column-footer {
   clear: both;
   text-align: center;
-}
-
-.column-footer a {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: inline-block;
-  color: gray;
-  padding: 0 5px 0 5px;
-  font-size: 0.7rem;
 }
 
 .description-figcaption {
@@ -455,7 +452,6 @@
   left: 0;
   font-size: 0.7rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
 }
 
 .small-picture {
