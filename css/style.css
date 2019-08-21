@@ -124,7 +124,8 @@
 
 /* #region Layout Photo */
 
-.layout.photo, .layout.two {
+.layout.photo,
+.layout.two {
   grid-column: 3/6;
   grid-row: 3;
   margin: 0 auto;
@@ -158,7 +159,9 @@
 .grid-footer div:nth-child(3) {
   word-spacing: 40px;
 }
-.layout.one, .layout.three{
+
+.layout.one,
+.layout.three {
   margin: 0 auto;
   width: 600px;
 }
@@ -237,7 +240,7 @@
 
 /* #region Layout 4 */
 
-.layout.four{
+.layout.four {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 600px;
@@ -264,7 +267,7 @@
 
 /* #region Layout 5 */
 
-.layout.five{
+.layout.five {
   width: 1200px;
   margin: 0 auto;
 }
@@ -305,7 +308,7 @@
 
 .title-right {
   width: 300px;
-  float:right;
+  float: right;
 }
 
 .mp.picture-footer {
@@ -350,8 +353,9 @@
 
 /* #region Layout 6 */
 
-.layout.six{
+.layout.six {
   padding-top: 40px;
+  padding-bottom: 50px;
   clear: both;
   width: 1200px;
   margin: 0 auto;
@@ -360,7 +364,7 @@
 
 .column {
   width: 200px;
-  float:left;
+  float: left;
   padding: 10px;
   font-weight: bold;
   font-size: 0.9rem;
@@ -412,6 +416,7 @@
 /* #endregion */
 
 /* #region Layout 7 */
+
 .layout.seven {
   background: rgb(51, 51, 51);
   color: white;
@@ -423,50 +428,49 @@
   width: 100%;
 }
 
+.footer-left {
+  display: inline-block;
+  width: 33%;
+}
+
+.footer-center {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.footer-right {
+  width: 33%;
+  display: inline-block;
+}
+
 /* #endregion */
+
+/* #region aside */
 
 .layout-aside {
   position: absolute;
-  height: 300px;
-  width: 200px;
-  float:right;
-  margin: 400px 200px 0 0;
-  right: 0;
-  /* right: -400px; */
-}
-
-.small-picture {
-  /* display: ; */
-  width: 50px;
-  /* vertical-align: center; */
-}
-
-.small-picture-float {
-  float: right;
-  /* vertical-align: center; */
-}
-
-.small-picture-test {
-  float: left;
-clear: both;
-position: absolute;
-padding-left: 136px;
-padding-top: 14px;
-font-size: 14px;
-padding-right: 4px;
-}
-
-.editor-container {
+  width: 150px;
+  margin: 400px 0 0 1000px;
+  left: 0;
   font-size: 0.7rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: absolute;
-height: 326px;
-width: 299px;
-float: right;
-margin: 400px 200px 37px 17px;
-right: 0;
-right: -312px;
-background-color: red;
+}
+
+.small-picture {
+  padding: 5px 0;
+  clear: both;
+  overflow: auto;
+}
+
+.small-picture-float {
+  float: left;
+  width: 50px;
+}
+
+.small-picture-test {
+  width: 250;
 }
 
 .editors-picks {
@@ -476,3 +480,5 @@ background-color: red;
   border-color: #dadada;
   padding-bottom: 4px;
 }
+
+/* #endregion */
